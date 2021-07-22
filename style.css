@@ -1,0 +1,62 @@
+
+
+#windowcode{
+    display: flex;
+    justify-content: space-around
+}
+
+.code {
+    width: 600px;
+    height: 300px;
+    position: relative;
+
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+
+}
+
+#iframe {
+    /* background-color: blue; */
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border: none;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+button{
+    margin-left: 10px;
+}
+
+#compteur{
+    position: absolute;
+    right: 0;
+    color: grey;
+}
+#barre{
+    width: 100%;
+    height: 10px;
+    margin-top: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+::-webkit-progress-bar {
+    background: none;
+}
+::-webkit-progress-value {
+    background-color: var(--c,rgb(60, 255, 0));
+}
+#img{
+    width: 80px;
+    visibility: hidden;
+}
+#loader{
+    display: flex;
+}

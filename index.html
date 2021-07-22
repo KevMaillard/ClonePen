@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ClonePen</title>
+</head>
+<body>
+    <h1>ClonePen Editor</h1>
+    <div class="btn">
+        <button id="btnbold"><b>Bold</b></button>
+        <button id="btnitalic"><i>Italic</i></button>
+    </div>
+    <div id="windowcode">
+        <section id="window" class="code">
+            <textarea id="area" maxlength="" placeholder="HTML/CSS/JS"></textarea>
+            <span id="compteur"></span>
+            <progress id="barre"></progress>
+        </section>
+    </div>
+    <br><br><br>
+    <div id="loader">
+        <H1>Live Code</H1>
+        <img id="img" src="images/Dual Ball.gif">    
+    </div>
+    <p id="iframe"></p>
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
